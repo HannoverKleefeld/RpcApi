@@ -1,0 +1,9 @@
+base referer
+rect $interfacei_rpc_logger.html 5,56 92,83
+rect $class_rpc_api.html 165,31 229,57
+rect $class_r_p_c_connection.html 140,81 255,108
+rect $class_r_p_c_curl_connection.html 306,31 443,57
+rect $class_r_p_c_soap_connection.html 303,81 447,108
+rect $class_r_p_c_url_connection.html 309,132 440,159
+rect $class_r_p_c_json_connection.html 495,5 636,32
+rect $class_r_p_c_x_m_l_connection.html 496,56 635,83

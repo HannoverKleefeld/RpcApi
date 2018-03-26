@@ -1,0 +1,5 @@
+<map id="RpcConnection\SendPacket" name="RpcConnection\SendPacket">
+<area shape="rect" id="node2" href="$class_rpc_connection_a68b51b5589d610e2cd068d41170cb0fa.html#a68b51b5589d610e2cd068d41170cb0fa" title="Logs an debug message. " alt="" coords="263,5,412,32"/>
+<area shape="rect" id="node3" href="$class_rpc_connection_aa9453f3a1fbc1bb0203869ce00f84ebc.html#aa9453f3a1fbc1bb0203869ce00f84ebc" title="Method to decode calls. " alt="" coords="239,56,436,83"/>
+<area shape="rect" id="node4" href="$class_rpc_connection_a9c18ffd4310fe8a6da839c8983aef132.html#a9c18ffd4310fe8a6da839c8983aef132" title="Logs an error. " alt="" coords="484,81,624,108"/>
+</map>

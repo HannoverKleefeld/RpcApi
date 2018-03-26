@@ -1,0 +1,27 @@
+var class_rpc_logger =
+[
+    [ "__construct", "class_rpc_logger_ac051447c12a20a8b5336afc42da8da5d.html#ac051447c12a20a8b5336afc42da8da5d", null ],
+    [ "__destruct", "class_rpc_logger_a8063a16b4d116b21af6680a54b6ccaec.html#a8063a16b4d116b21af6680a54b6ccaec", null ],
+    [ "__sleep", "class_rpc_logger_a99aeb641544a0396cb25201b10f8d70b.html#a99aeb641544a0396cb25201b10f8d70b", null ],
+    [ "__wakeup", "class_rpc_logger_af2abcad5a9db8d9cdf24e4d84ce45355.html#af2abcad5a9db8d9cdf24e4d84ce45355", null ],
+    [ "_log", "class_rpc_logger_a52d5fc4100d48560b13ae38775d1b041.html#a52d5fc4100d48560b13ae38775d1b041", null ],
+    [ "Attach", "class_rpc_logger_adfecef0ce858fdd9035331be4817f042.html#adfecef0ce858fdd9035331be4817f042", null ],
+    [ "Debug", "class_rpc_logger_a27f94577cf4623639d03642a579b6575.html#a27f94577cf4623639d03642a579b6575", null ],
+    [ "Detach", "class_rpc_logger_a67454f04b129f3b41d01bd76de3aa8ab.html#a67454f04b129f3b41d01bd76de3aa8ab", null ],
+    [ "doOutput", "class_rpc_logger_a268a9afd2404b46a5cf6248f0b520fa5.html#a268a9afd2404b46a5cf6248f0b520fa5", null ],
+    [ "Error", "class_rpc_logger_ac69bbf62411a3c37af5792deae2fec64.html#ac69bbf62411a3c37af5792deae2fec64", null ],
+    [ "GetError", "class_rpc_logger_a912bf7085cefe18c0dabd7f33c2e1586.html#a912bf7085cefe18c0dabd7f33c2e1586", null ],
+    [ "HasError", "class_rpc_logger_a37cea72971c48db1188b3d5145f6677c.html#a37cea72971c48db1188b3d5145f6677c", null ],
+    [ "LastErrorCode", "class_rpc_logger_ae86879748b58ed5e70a177d0eb1e6d94.html#ae86879748b58ed5e70a177d0eb1e6d94", null ],
+    [ "LastErrorMessage", "class_rpc_logger_a914204570bd85e2bc415fd0695cc2590.html#a914204570bd85e2bc415fd0695cc2590", null ],
+    [ "Merge", "class_rpc_logger_a31772814a00f9565655d40f0ea814a23.html#a31772814a00f9565655d40f0ea814a23", null ],
+    [ "SetLogFile", "class_rpc_logger_aa4c47972f6b86a10e832a9adbe33cdf3.html#aa4c47972f6b86a10e832a9adbe33cdf3", null ],
+    [ "SetLogOptions", "class_rpc_logger_a90b42bb9ad394fe01b49dd080d38307b.html#a90b42bb9ad394fe01b49dd080d38307b", null ],
+    [ "SetMessage", "class_rpc_logger_aace83253fbf3f1d191bbcf003beebfe9.html#aace83253fbf3f1d191bbcf003beebfe9", null ],
+    [ "$classnames", "class_rpc_logger_a68702c4e5b0362382eeb9c697bb60db8.html#a68702c4e5b0362382eeb9c697bb60db8", null ],
+    [ "$errors", "class_rpc_logger_a95b6e5c52bfbf30e90e3b7a78ec98259.html#a95b6e5c52bfbf30e90e3b7a78ec98259", null ],
+    [ "$logFileHandle", "class_rpc_logger_acff0cb2b2227778dbe9f9145697303a3.html#acff0cb2b2227778dbe9f9145697303a3", null ],
+    [ "$logFileName", "class_rpc_logger_ab11b0aab79c7cbadc442223b9842c96b.html#ab11b0aab79c7cbadc442223b9842c96b", null ],
+    [ "$logoptions", "class_rpc_logger_ac8a918a609462d4e935b32d3c5a96c0a.html#ac8a918a609462d4e935b32d3c5a96c0a", null ],
+    [ "$oMessage", "class_rpc_logger_a4b4fa3b2872bca2907ae912b245cf4d6.html#a4b4fa3b2872bca2907ae912b245cf4d6", null ]
+];

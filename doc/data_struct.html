@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>RPCApi: Data structures</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RPCApi
+   &#160;<span id="projectnumber">2.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Erzeugt von Doxygen 1.8.14 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',false,false,'search.php','Suchen');
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('data_struct.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
+<div class="header">
+  <div class="headertitle">
+<div class="title">Data structures </div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="toc"><h3>Inhaltsverzeichnis</h3>
+<ul><li class="level1"><a href="#struct_event">Event structure</a></li>
+<li class="level1"><a href="#struct_device">Device structure</a><ul><li class="level2"><a href="#struct_device_config">Device config structure</a></li>
+<li class="level2"><a href="#struct_device_def">Device definition structure</a></li>
+<li class="level2"><a href="#struct_device_info">Device info structure</a></li>
+<li class="level2"><a href="#struct_device_icons">Device icons structure</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="textblock"><h1><a class="anchor" id="struct_event"></a>
+Event structure</h1>
+<div class="fragment"><div class="line">$event = [ </div><div class="line">        <a class="code" href="rpcconstants_8inc_adece6739bd0f409298331db97bce3cfe.html#adece6739bd0f409298331db97bce3cfe">EVENT_SID</a>=&gt;(string)<span class="stringliteral">&#39;received_sid&#39;</span>,</div><div class="line">        <a class="code" href="rpcconstants_8inc_a1755fcf2f9280b21850087175158ce22.html#a1755fcf2f9280b21850087175158ce22">EVENT_TIMEOUT</a>=&gt;(<span class="keywordtype">int</span>)<span class="stringliteral">&#39;received_timeout&#39;</span>,</div><div class="line">        <a class="code" href="rpcconstants_8inc_a774707b2883009114e2813542c392769.html#a774707b2883009114e2813542c392769">EVENT_SERVICE</a>=&gt;(string)<span class="stringliteral">&#39;servivename&#39;</span></div><div class="line">];</div><div class="line">$events = [</div><div class="line">        $event , $event \\ ,...</div><div class="line">];      </div></div><!-- fragment --><p> <br />
+</p><dl class="section see"><dt>Siehe auch</dt><dd><a class="el" href="class_rpc_api_a43429ef0a023057905637c484e9c5277.html#a43429ef0a023057905637c484e9c5277">RpcApi::RegisterEvent</a> | <a class="el" href="class_rpc_api_acae3214d922ec3eb94ce072364a9cb16.html#acae3214d922ec3eb94ce072364a9cb16">RpcApi::RefreshEvent</a> | <a class="el" href="class_rpc_api_a7d39ee126a9c769cf72eb554d135257f.html#a7d39ee126a9c769cf72eb554d135257f">RpcApi::UnregisterEvent</a></dd></dl>
+<h1><a class="anchor" id="struct_device"></a>
+Device structure</h1>
+<div class="fragment"><div class="line">$this-&gt;_device  (array) of stdClass objects</div></div><!-- fragment --><h2><a class="anchor" id="struct_device_config"></a>
+Device config structure</h2>
+<div class="fragment"><div class="line">$config = &amp;$this-&gt;_device-&gt;{<a class="code" href="rpcconstants_8inc_a0c7d9431d64666292dec0f04268395a9.html#a0c7d9431d64666292dec0f04268395a9">DEVICE_CONFIG</a>} (stdClass)</div><div class="line">$config-&gt;{<a class="code" href="rpcconstants_8inc_a209354b795cda242eb2f32db7829e799.html#a209354b795cda242eb2f32db7829e799">CONFIG_SCHEME</a>}        (string) scheme <span class="stringliteral">&#39;http&#39;</span> or <span class="stringliteral">&#39;https&#39;</span></div><div class="line">$config-&gt;{<a class="code" href="rpcconstants_8inc_a684e7618926124ed11e9fa0b6d0cf729.html#a684e7618926124ed11e9fa0b6d0cf729">CONFIG_HOST</a>}          (string) host without http(s)</div><div class="line">$config-&gt;{<a class="code" href="rpcconstants_8inc_a549fd8811c5c7065e8f751a95b59dd41.html#a549fd8811c5c7065e8f751a95b59dd41">CONFIG_PORT</a>}          (int)    communication port</div><div class="line">$config-&gt;{<a class="code" href="rpcconstants_8inc_a71e00b541911237e2aa3e4426a869dc3.html#a71e00b541911237e2aa3e4426a869dc3">CONFIG_CONNTYPE</a>}      (int) once of</div><div class="line">$config-&gt;{<a class="code" href="rpcconstants_8inc_aa7b0b21743112373fdbc8f93b0b28b94.html#aa7b0b21743112373fdbc8f93b0b28b94">CONFIG_LOGIN_U</a>}       (string) username </div><div class="line">$config-&gt;{<a class="code" href="rpcconstants_8inc_a9955986d5a42655ec2508db3c6626109.html#a9955986d5a42655ec2508db3c6626109">CONFIG_LOGIN_P</a>}       (string) password</div></div><!-- fragment --> <dl class="section see"><dt>Siehe auch</dt><dd><a class="el" href="class_rpc_api_a4adc6466822a06714ea551bd2967b3d9.html#a4adc6466822a06714ea551bd2967b3d9">RpcApi::GetConfig</a></dd></dl>
+<h2><a class="anchor" id="struct_device_def"></a>
+Device definition structure</h2>
+<div class="fragment"><div class="line">$def = &amp;$this-&gt;_device-&gt;{<a class="code" href="rpcconstants_8inc_a16b442480f25db6b371d12fade83b199.html#a16b442480f25db6b371d12fade83b199">DEVICE_DEF</a>} (stdClass)   </div><div class="line">$def-&gt;{<a class="code" href="rpcconstants_8inc_ae6c1bdb965ece8d0008fb5ea0f348dd2.html#ae6c1bdb965ece8d0008fb5ea0f348dd2">DEF_MANU</a>}        (string) Detected device manufacturer</div><div class="line">$def-&gt;{<a class="code" href="rpcconstants_8inc_ac6dc85f1036b33eaec382f0d05256eb4.html#ac6dc85f1036b33eaec382f0d05256eb4">DEF_MODEL</a>}       (string) Detected device modelnumber</div><div class="line">$def-&gt;{<a class="code" href="rpcconstants_8inc_a9605b2dc1e8c8c3f385646024368ebe0.html#a9605b2dc1e8c8c3f385646024368ebe0">DEF_OPTIONS</a>}     (int)    Device options</div><div class="line">$def-&gt;{<a class="code" href="rpcconstants_8inc_a69afde66c69d32584711213ed91d6486.html#a69afde66c69d32584711213ed91d6486">DEF_PROPS</a>}       (int)    Device propertys</div><div class="line">$def-&gt;{<a class="code" href="rpcconstants_8inc_a2048674e325fcb3525ab0798df4eede1.html#a2048674e325fcb3525ab0798df4eede1">DEF_VERSION</a>}     (string) Api version</div></div><!-- fragment --><p> <br />
+</p><dl class="section see"><dt>Siehe auch</dt><dd><a class="el" href="class_rpc_api_a4290c1207ca78637760b7af29eb8d1c0.html#a4290c1207ca78637760b7af29eb8d1c0">RpcApi::GetModelDef</a></dd></dl>
+<h2><a class="anchor" id="struct_device_info"></a>
+Device info structure</h2>
+<div class="fragment"><div class="line">$info = &amp;$this-&gt;_device-&gt;{<a class="code" href="rpcconstants_8inc_af0d9ac5e26cc971fcf9869e62d6003d2.html#af0d9ac5e26cc971fcf9869e62d6003d2">DEVICE_INFO</a>} (array) </div><div class="line"><span class="keywordflow">foreach</span>($info as $key=&gt;$value){</div><div class="line">        echo <span class="stringliteral">&quot;$key = $value\n&quot;</span>; </div><div class="line">}</div></div><!-- fragment --><h2><a class="anchor" id="struct_device_icons"></a>
+Device icons structure</h2>
+<div class="fragment"><div class="line">$icons = &amp;$this-&gt;_device{<a class="code" href="rpcconstants_8inc_ab3b1aba4be1c194ad733e47dd0ab2d94.html#ab3b1aba4be1c194ad733e47dd0ab2d94">DEVICE_ICONS</a>} (array)</div><div class="line"><span class="keywordflow">foreach</span>($icons as $icon){</div><div class="line"> $icon-&gt;{<a class="code" href="rpcconstants_8inc_a3c6586f8a15ec230f1631e8666d71d36.html#a3c6586f8a15ec230f1631e8666d71d36">ICON_URL</a>}      (string)        icon location </div><div class="line"> $icon-&gt;{<a class="code" href="rpcconstants_8inc_a4633161c29d0e82e44062cc670aa0758.html#a4633161c29d0e82e44062cc670aa0758">ICON_HEIGHT</a>}(int)              icon height in px</div><div class="line"> $icon-&gt;{<a class="code" href="rpcconstants_8inc_a094771266b18467ddf57d40f1285d4b5.html#a094771266b18467ddf57d40f1285d4b5">ICON_WIDTH</a>}    (int)           icon widht in px</div><div class="line"> $icon-&gt;{<a class="code" href="rpcconstants_8inc_a67620e30188a1843f664fb60fee0791f.html#a67620e30188a1843f664fb60fee0791f">ICON_DEPTH</a>}    (string)        icon color depth</div><div class="line"> $icon-&gt;{<a class="code" href="rpcconstants_8inc_a1f35d5b0b1f2626ec2581e88e4d9b826.html#a1f35d5b0b1f2626ec2581e88e4d9b826">ICON_MIME</a>}     (string)        icon mime type (<span class="stringliteral">&#39;jpg&#39;</span>,<span class="stringliteral">&#39;png&#39;</span> ....)</div><div class="line">}</div></div><!-- fragment --><p>Next Page <a class="el" href="struct_services.html">Device services structure</a> </p>
+</div></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Erzeugt von
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1">
+<title>RPCApi: Example Device config</title>
+<link href="doxygen.css" rel="stylesheet" type="text/css">
+<link href="tabs.css" rel="stylesheet" type="text/css">
+</head><body>
+<!-- Erzeugt von Doxygen 1.4.5 -->
+<div class="tabs">
+  <ul>
+    <li><a href="main.html"><span>Hauptseite</span></a></li>
+    <li><a href="namespaces.html"><span>Namensbereiche</span></a></li>
+    <li><a href="annotated.html"><span>Klassen</span></a></li>
+    <li><a href="files.html"><span>Dateien</span></a></li>
+    <li><a href="pages.html"><span>Zusätzliche&nbsp;Informationen</span></a></li>
+    <li><a href="examples.html"><span>Beispiele</span></a></li>
+  </ul></div>
+<h1><a class="anchor" name="example_device_config">Example Device config</a></h1><b>Changing the device login user and password</b> <div class="fragment"><pre class="fragment"><span class="comment">// $api is class of RpcApi</span>
+        $api-&gt;SetCreditials('UserName<span class="charliteral">','</span>Passoword');
+<span class="comment">// or</span>
+        $c=$api-&gt;GetConfig();
+        var_export($c);
+        $c-&gt;{<a class="code" href="rpcconstants_8inc_9eb8dadaec3c0c458f025bcd34567660.html#9eb8dadaec3c0c458f025bcd34567660">CONFIG_LOGIN_U</a>}='mr.lol';
+        $c-&gt;{<a class="code" href="rpcconstants_8inc_aa83f1137d2cf78b54e46871cb33b031.html#aa83f1137d2cf78b54e46871cb33b031">CONFIG_LOGIN_P</a>}='xxxxxxx';
+</pre></div> <dl compact><dt><b>Siehe auch:</b></dt><dd><a class="el" href="class_rpc_api_b632655ed5372e5182c6e28328edda1b.html#b632655ed5372e5182c6e28328edda1b">RpcApi::GetConfig</a> </dd></dl>
+<hr size="1"><address style="align: right;"><small>Erzeugt am Mon Mar 19 15:13:15 2018 für RPCApi von&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img src="doxygen.png" alt="doxygen" align="middle" border="0"></a> 1.4.5 </small></address>
+</body>
+</html>

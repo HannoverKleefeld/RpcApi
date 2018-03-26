@@ -1,0 +1,90 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1">
+<title>RPCApi: Create-language-file</title>
+<link href="doxygen.css" rel="stylesheet" type="text/css">
+<link href="tabs.css" rel="stylesheet" type="text/css">
+</head><body>
+<!-- Erzeugt von Doxygen 1.4.5 -->
+<div class="tabs">
+  <ul>
+    <li><a href="main.html"><span>Hauptseite</span></a></li>
+    <li><a href="namespaces.html"><span>Namensbereiche</span></a></li>
+    <li><a href="annotated.html"><span>Klassen</span></a></li>
+    <li><a href="files.html"><span>Dateien</span></a></li>
+    <li><a href="pages.html"><span>Zusätzliche&nbsp;Informationen</span></a></li>
+    <li><a href="examples.html"><span>Beispiele</span></a></li>
+  </ul></div>
+<h1>Create-language-file</h1>This is the content of the English language file, change the text into your language and save it as "rpcmessages.xx.inc".<br>
+ The "xx" stands for the language abbreviation.<br>
+ en = english<br>
+ de = german<br>
+ it = Italian<br>
+ .....<p>
+<div class="fragment"><pre class="fragment"><a name="l00001"></a>00001  &lt;?php
+<a name="l00002"></a>00002  <span class="keyword">const</span> 
+<a name="l00003"></a>00003 <a name="a4"></a><a class="code" href="rpcmessages_8en_8inc_8e043fb4489b2d4c8e267a9b7395a6f7.html#8e043fb4489b2d4c8e267a9b7395a6f7">RPCMessages</a>=[
+<a name="l00004"></a>00004 <span class="comment">// RPC Connection       </span>
+<a name="l00005"></a>00005         ERR_OpenSoketTo                 =&gt; 'Error opening socket to %s at %s : %s [%s]',
+<a name="l00006"></a>00006         <a name="a5"></a><a class="code" href="rpcmessages_8en_8inc_f965d6de580d15dfdf7e1135d26cfbcc.html#f965d6de580d15dfdf7e1135d26cfbcc">ERR_CantGetConnection</a>           =&gt; 'Cant get connection',
+<a name="l00007"></a>00007         ERR_EmptyResponse               =&gt; 'Empty Response',
+<a name="l00008"></a>00008         ERR_InvalidResposeCode          =&gt; 'Call returns http error (%s) %s',
+<a name="l00009"></a>00009         ERR_InvalidResponceFormat       =&gt; 'Request error: Invalid response type . Only %s allowed',
+<a name="l00010"></a>00010         ERR_MethodNoScala               =&gt; 'Method name has no scalar value',
+<a name="l00011"></a>00011         ERR_FormatArray                 =&gt; 'Params must be given as array',
+<a name="l00012"></a>00012         ERR_NoResponseID                =&gt; 'No response <span class="keywordtype">id</span>',
+<a name="l00013"></a>00013         ERR_InvalidResponseID           =&gt; 'Incorrect response id (request <span class="keywordtype">id</span>: %s response <span class="keywordtype">id</span>: %s )',
+<a name="l00014"></a>00014         ERR_HostNameNotSet              =&gt; 'No hostname set',
+<a name="l00015"></a>00015 <span class="comment">// Error ValidateValue  </span>
+<a name="l00016"></a>00016         ERR_ParamIsEmpty                =&gt; <span class="stringliteral">"Required param '%s' is empty!"</span>,
+<a name="l00017"></a>00017         ERR_InvalidParamTypeBool        =&gt; <span class="stringliteral">"Invalid paramtype for -&gt;%s&lt;- ! require type boolean"</span>,
+<a name="l00018"></a>00018         ERR_InvalidParamTypeUint        =&gt; <span class="stringliteral">"Invalid paramtype for -&gt;%s&lt;- ! require type int! [0-xxxxx]"</span>,
+<a name="l00019"></a>00019         ERR_InvalidParamTypeNum         =&gt; <span class="stringliteral">"Invalid paramtype for  -&gt;%s&lt;- ! require type numeric"</span>,
+<a name="l00020"></a>00020         ERR_ValueToSmal                 =&gt; <span class="stringliteral">"Value %s for param -&gt;%s&lt;- is to lees! Allowed %s to %s"</span>,
+<a name="l00021"></a>00021         ERR_ValueToBig                  =&gt; <span class="stringliteral">"Value %s for param -&gt;%s&lt;-' is to great! Allowed %s to %s"</span>,
+<a name="l00022"></a>00022         ERR_ValueNotAllowed             =&gt; <span class="stringliteral">"Value %s for param -&gt;%s&lt;- is invalid! Allowed only [ %s ]"</span>,
+<a name="l00023"></a>00023 <span class="comment">// RPC _call</span>
+<a name="l00024"></a>00024         ERR_DeviceNotLoaded             =&gt; 'Device configuration not loaded!',
+<a name="l00025"></a>00025         ERR_DeviceNotOnline             =&gt; 'Device not online!',
+<a name="l00026"></a>00026         ERR_FunctionNotFound            =&gt; 'Function <span class="stringliteral">"%s"</span> not found!',
+<a name="l00027"></a>00027         ERR_InvalidParamFound           =&gt; 'Invalid parameter %s found' ,
+<a name="l00028"></a>00028         ERR_SourceExportFailed          =&gt; 'Failed to export %s variable %s',
+<a name="l00029"></a>00029 <span class="comment">// In source functions</span>
+<a name="l00030"></a>00030         ERR_KeyCodeNotExists            =&gt; 'KeyCode %s not exist',  <span class="comment">// From / For source function SendKeyCode;</span>
+<a name="l00031"></a>00031         ERR_CantGetLocalAddress         =&gt; 'Cant get local address', 
+<a name="l00032"></a>00032         ERR_ConnectSocketTo                     =&gt; 'Error opening socket to %s at port %s',
+<a name="l00033"></a>00033 <span class="comment">// rpcimport</span>
+<a name="l00034"></a>00034         ERR_UnknownFileName             =&gt; 'Unknown Filename %s',
+<a name="l00035"></a>00035         ERR_NoServicesFound             =&gt; 'No services found', 
+<a name="l00036"></a>00036         ERR_NeedHostName                =&gt; 'Hostname missing =&gt; call method with <span class="stringliteral">"[username [:password] @ ] hostname[:port]/name"</span>',
+<a name="l00037"></a>00037         ERR_NeedPort                    =&gt; 'Hostname or port missing =&gt; call method with <span class="stringliteral">"[username [:password] @ ] hostname:port/name"</span>',
+<a name="l00038"></a>00038         ERR_NeedCreditials              =&gt; 'Login data missing =&gt; call method with <span class="stringliteral">"username[:password]@hostname:port/name"</span>',
+<a name="l00039"></a>00039         ERR_InjectInitFailed            =&gt; 'Injection init function %s failed',
+<a name="l00040"></a>00040 <span class="comment">// RPC GetService ...  Events register,refresh,unregister</span>
+<a name="l00041"></a>00041         ERR_ServiceNotFound             =&gt; 'Service %s not found',
+<a name="l00042"></a>00042         ERR_NoEventServiceFound         =&gt; 'No events found',
+<a name="l00043"></a>00043         ERR_ServiceHasNoEvents          =&gt; 'Service %s has no events',
+<a name="l00044"></a>00044         ERR_ServiceHasNoEventUrl        =&gt; 'Service %s has no event control url',
+<a name="l00045"></a>00045         ERR_NoResposeSID                =&gt; 'Empty event SID received',
+<a name="l00046"></a>00046         ERR_InvalidTimeouResponse       =&gt; 'Invalid or no timeout received',
+<a name="l00047"></a>00047         ERR_NotMySIDReceived            =&gt; 'Received sid %s is not my sid %s',
+<a name="l00048"></a>00048         ERR_InvalidCallbackUrl          =&gt; 'Invalid callback url <span class="stringliteral">"%s"</span>',
+<a name="l00049"></a>00049 <span class="comment">// Detection in rpc.inject.inc</span>
+<a name="l00050"></a>00050         ERR_FoundManuModelNotMatch      =&gt; 'Found manufacturer %s but model %s not in detection matchlist',
+<a name="l00051"></a>00051 <span class="comment">// Load/Save Config</span>
+<a name="l00052"></a>00052         ERR_FileNotFound                =&gt; 'File %s not found',
+<a name="l00053"></a>00053         ERR_NoRpcConfigFile             =&gt; 'File %s is no valid Rpc config',
+<a name="l00054"></a>00054         ERR_ConfigFileVersionMismatch   =&gt; 'Invalid config version: %s !! Need version: %s',
+<a name="l00055"></a>00055         ERR_NoDataToSave                =&gt; 'Device data empty. Save aborted!',  
+<a name="l00056"></a>00056 ];
+<a name="l00057"></a>00057 ?&gt;
+</pre></div> To use this new file, there are two ways<ol type=1>
+<li>Define the Global Language constant in your Projet, before include <a class="el" href="class_rpc_api.html">RpcApi</a> <div class="fragment"><pre class="fragment"><a name="l00001"></a>00001  define('RpcLanguage<span class="charliteral">','</span>en');
+<a name="l00002"></a>00002  require_once('rpcapi.php');
+</pre></div></li><li>Set the Language when creating a custom <a class="el" href="class_rpc_message.html">RpcMessage</a> object</li></ol>
+<p>
+<dl compact><dt><b>Siehe auch:</b></dt><dd><a class="el" href="class_rpc_message.html">RpcMessage</a> , <a class="el" href="_create-_message-example.html">Create-Message</a> and <a class="el" href="_create-_logger-example.html">Create-Logger</a></dd></dl>
+<div class="fragment"><pre class="fragment"></pre></div> <hr size="1"><address style="align: right;"><small>Erzeugt am Mon Mar 19 15:18:57 2018 für RPCApi von&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img src="doxygen.png" alt="doxygen" align="middle" border="0"></a> 1.4.5 </small></address>
+</body>
+</html>

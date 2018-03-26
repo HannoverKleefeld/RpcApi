@@ -1,0 +1,14 @@
+<map id="Classes" name="Classes">
+<area shape="rect" id="node1" href="$group__class__message.html" title="Language file handling. " alt="" coords="324,5,399,32"/>
+<area shape="rect" id="node2" href="$group__class__logger.html" title="Error and Debug handling. " alt="" coords="331,56,392,83"/>
+<area shape="rect" id="node3" href="$group__class__icon.html" title="Shows icon structure. " alt="" coords="317,107,405,133"/>
+<area shape="rect" id="node4" href="$group__class__param.html" title="Shows argument structure. " alt="" coords="295,157,427,184"/>
+<area shape="rect" id="node5" href="$group__users__guide.html" title="Descriptions of the data structures and classes &#160;&#160;" alt="" coords="5,259,127,285"/>
+<area shape="rect" id="node6" href="$group__class__info.html" title="Shows info structure. " alt="" coords="319,208,403,235"/>
+<area shape="rect" id="node7" href="$group__class__device.html" title="Shows device structure. " alt="" coords="331,259,391,285"/>
+<area shape="rect" id="node8" href="$group__class__config.html" title="Shows config structure. " alt="" coords="311,309,411,336"/>
+<area shape="rect" id="node9" href="$group__class__def.html" title="Shows definitions structure. " alt="" coords="303,360,420,387"/>
+<area shape="rect" id="node11" href="$group__class__service.html" title="Shows service structure. " alt="" coords="308,411,415,437"/>
+<area shape="rect" id="node12" href="$group__class__function.html" title="Shows function structure. " alt="" coords="302,461,421,488"/>
+<area shape="rect" id="node13" href="$group__class__params.html" title="Shows arguments structure. " alt="" coords="292,512,431,539"/>
+</map>

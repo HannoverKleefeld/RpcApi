@@ -1,0 +1,89 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1">
+<title>RPCApi: Create_Language_File</title>
+<link href="doxygen.css" rel="stylesheet" type="text/css">
+<link href="tabs.css" rel="stylesheet" type="text/css">
+</head><body>
+<!-- Erzeugt von Doxygen 1.4.5 -->
+<div class="tabs">
+  <ul>
+    <li><a href="main.html"><span>Hauptseite</span></a></li>
+    <li><a href="namespaces.html"><span>Namensbereiche</span></a></li>
+    <li><a href="annotated.html"><span>Klassen</span></a></li>
+    <li><a href="files.html"><span>Dateien</span></a></li>
+    <li><a href="pages.html"><span>Zusätzliche&nbsp;Informationen</span></a></li>
+    <li><a href="examples.html"><span>Beispiele</span></a></li>
+  </ul></div>
+<h1>Create_Language_File</h1>This is the content of the English language file, change the text into your language and save it as "rpcmessages.xx.inc" in subdir messages.<br>
+ The "xx" stands for the language abbreviation.<br>
+ en = english<br>
+ de = german<br>
+ it = Italian<br>
+ ..... <div class="fragment"><pre class="fragment"><a name="l00001"></a>00001  &lt;?php
+<a name="l00002"></a>00002  <span class="keyword">const</span> 
+<a name="l00003"></a>00003 RPCMessages=[
+<a name="l00004"></a>00004 <span class="comment">// RPC Connection       </span>
+<a name="l00005"></a>00005         <a name="a4"></a><a class="code" href="rpcmessages_8inc_df021f0b4ff707b6d11bdb2ebac1cbf8.html#df021f0b4ff707b6d11bdb2ebac1cbf8">ERR_OpenSoketTo</a>                 =&gt; 'Error opening socket to %s at %s : %s [%s]',
+<a name="l00006"></a>00006         <a name="a5"></a><a class="code" href="rpcmessages_8inc_f965d6de580d15dfdf7e1135d26cfbcc.html#f965d6de580d15dfdf7e1135d26cfbcc">ERR_CantGetConnection</a>           =&gt; 'Cant get connection',
+<a name="l00007"></a>00007         <a name="a6"></a><a class="code" href="rpcmessages_8inc_a075d54c46eeaca00ca9aa149fafc6dd.html#a075d54c46eeaca00ca9aa149fafc6dd">ERR_EmptyResponse</a>               =&gt; 'Empty Response',
+<a name="l00008"></a>00008         <a name="a7"></a><a class="code" href="rpcmessages_8inc_2bb979e5978469354f655e9979702ecb.html#2bb979e5978469354f655e9979702ecb">ERR_InvalidResposeCode</a>          =&gt; 'Call returns http error (%s) %s',
+<a name="l00009"></a>00009         <a name="a8"></a><a class="code" href="rpcmessages_8inc_c714100542a22df30b59a7d34c2dd065.html#c714100542a22df30b59a7d34c2dd065">ERR_InvalidResponceFormat</a>       =&gt; 'Request error: Invalid response type . Only %s allowed',
+<a name="l00010"></a>00010         <a name="a9"></a><a class="code" href="rpcmessages_8inc_490fc7c367f8c19ad32e7c166843122b.html#490fc7c367f8c19ad32e7c166843122b">ERR_MethodNoScala</a>               =&gt; 'Method name has no scalar value',
+<a name="l00011"></a>00011         <a name="a10"></a><a class="code" href="rpcmessages_8inc_0e292bdbe1434311057600f77ee5baf1.html#0e292bdbe1434311057600f77ee5baf1">ERR_FormatArray</a>                 =&gt; 'Params must be given as array',
+<a name="l00012"></a>00012         <a name="a11"></a><a class="code" href="rpcmessages_8inc_40939079f1e0e98758f08365827d6134.html#40939079f1e0e98758f08365827d6134">ERR_NoResponseID</a>                =&gt; 'No response <span class="keywordtype">id</span>',
+<a name="l00013"></a>00013         <a name="a12"></a><a class="code" href="rpcmessages_8inc_5507be86386e41bc701edcaccbca0810.html#5507be86386e41bc701edcaccbca0810">ERR_InvalidResponseID</a>           =&gt; 'Incorrect response id (request <span class="keywordtype">id</span>: %s response <span class="keywordtype">id</span>: %s )',
+<a name="l00014"></a>00014         <a name="a13"></a><a class="code" href="rpcmessages_8inc_3a56eaf823743e3eaa151fff3cb0cf93.html#3a56eaf823743e3eaa151fff3cb0cf93">ERR_HostNameNotSet</a>              =&gt; 'No hostname set',
+<a name="l00015"></a>00015 <span class="comment">// Error ValidateValue  </span>
+<a name="l00016"></a>00016         <a name="a14"></a><a class="code" href="rpcmessages_8inc_e76fc96df4203198d95fd4da24648b9a.html#e76fc96df4203198d95fd4da24648b9a">ERR_ParamIsEmpty</a>                =&gt; <span class="stringliteral">"Required param '%s' is empty!"</span>,
+<a name="l00017"></a>00017         <a name="a15"></a><a class="code" href="rpcmessages_8inc_0e24986fe2366a610397ccf3f27505cb.html#0e24986fe2366a610397ccf3f27505cb">ERR_InvalidParamTypeBool</a>        =&gt; <span class="stringliteral">"Invalid paramtype for -&gt;%s&lt;- ! require type boolean"</span>,
+<a name="l00018"></a>00018         <a name="a16"></a><a class="code" href="rpcmessages_8inc_258d19444d6b92b68d28f4e4f95d075c.html#258d19444d6b92b68d28f4e4f95d075c">ERR_InvalidParamTypeUint</a>        =&gt; <span class="stringliteral">"Invalid paramtype for -&gt;%s&lt;- ! require type int! [0-xxxxx]"</span>,
+<a name="l00019"></a>00019         <a name="a17"></a><a class="code" href="rpcmessages_8inc_d9471e9f11e67b92eb1bb152e239ad0d.html#d9471e9f11e67b92eb1bb152e239ad0d">ERR_InvalidParamTypeNum</a>         =&gt; <span class="stringliteral">"Invalid paramtype for  -&gt;%s&lt;- ! require type numeric"</span>,
+<a name="l00020"></a>00020         <a name="a18"></a><a class="code" href="rpcmessages_8inc_81d9248dbe8645d13e2ae9d2ebfd0cc3.html#81d9248dbe8645d13e2ae9d2ebfd0cc3">ERR_ValueToSmal</a>                 =&gt; <span class="stringliteral">"Value %s for param -&gt;%s&lt;- is to lees! Allowed %s to %s"</span>,
+<a name="l00021"></a>00021         <a name="a19"></a><a class="code" href="rpcmessages_8inc_845ad0c4d6bdffccdf36248a988d4a1d.html#845ad0c4d6bdffccdf36248a988d4a1d">ERR_ValueToBig</a>                  =&gt; <span class="stringliteral">"Value %s for param -&gt;%s&lt;-' is to great! Allowed %s to %s"</span>,
+<a name="l00022"></a>00022         <a name="a20"></a><a class="code" href="rpcmessages_8inc_7502d157f3c25c48f551fdbc62406200.html#7502d157f3c25c48f551fdbc62406200">ERR_ValueNotAllowed</a>             =&gt; <span class="stringliteral">"Value %s for param -&gt;%s&lt;- is invalid! Allowed only [ %s ]"</span>,
+<a name="l00023"></a>00023 <span class="comment">// RPC _call</span>
+<a name="l00024"></a>00024         <a name="a21"></a><a class="code" href="rpcmessages_8inc_c8dab383e08f93cdb8f0e7631adf5132.html#c8dab383e08f93cdb8f0e7631adf5132">ERR_DeviceNotLoaded</a>             =&gt; 'Device configuration not loaded!',
+<a name="l00025"></a>00025         <a name="a22"></a><a class="code" href="rpcmessages_8inc_953e4ddd312b5590a841e7ebb1838971.html#953e4ddd312b5590a841e7ebb1838971">ERR_DeviceNotOnline</a>             =&gt; 'Device not online!',
+<a name="l00026"></a>00026         <a name="a23"></a><a class="code" href="rpcmessages_8inc_cda653b26ea2e7c89b526455ad9465f1.html#cda653b26ea2e7c89b526455ad9465f1">ERR_FunctionNotFound</a>            =&gt; 'Function <span class="stringliteral">"%s"</span> not found!',
+<a name="l00027"></a>00027         <a name="a24"></a><a class="code" href="rpcmessages_8inc_d404d497e2477b2e0b30620cb4b529a1.html#d404d497e2477b2e0b30620cb4b529a1">ERR_InvalidParamFound</a>           =&gt; 'Invalid parameter %s found' ,
+<a name="l00028"></a>00028         <a name="a25"></a><a class="code" href="rpcmessages_8inc_b9b1054ab39b999c0d064f859da67d41.html#b9b1054ab39b999c0d064f859da67d41">ERR_SourceExportFailed</a>          =&gt; 'Failed to export %s variable %s',
+<a name="l00029"></a>00029 <span class="comment">// In source functions</span>
+<a name="l00030"></a>00030         <a name="a26"></a><a class="code" href="rpcmessages_8inc_493410792832e27654a96f173373d8f8.html#493410792832e27654a96f173373d8f8">ERR_KeyCodeNotExists</a>            =&gt; 'KeyCode %s not exist',  <span class="comment">// From / For source function SendKeyCode;</span>
+<a name="l00031"></a>00031         <a name="a27"></a><a class="code" href="rpcmessages_8inc_000f8d3396542e1c911110d036507498.html#000f8d3396542e1c911110d036507498">ERR_CantGetLocalAddress</a>         =&gt; 'Cant get local address', 
+<a name="l00032"></a>00032         <a name="a28"></a><a class="code" href="rpcmessages_8inc_37e876a2ff69338fa529da51884e037d.html#37e876a2ff69338fa529da51884e037d">ERR_ConnectSocketTo</a>                     =&gt; 'Error opening socket to %s at port %s',
+<a name="l00033"></a>00033 <span class="comment">// rpcimport</span>
+<a name="l00034"></a>00034         <a name="a29"></a><a class="code" href="rpcmessages_8inc_95e2727c6e2f798830e43cf7159df6e3.html#95e2727c6e2f798830e43cf7159df6e3">ERR_UnknownFileName</a>             =&gt; 'Unknown Filename %s',
+<a name="l00035"></a>00035         <a name="a30"></a><a class="code" href="rpcmessages_8inc_b3b503a80f1c676bb859c3cc94fa6d87.html#b3b503a80f1c676bb859c3cc94fa6d87">ERR_NoServicesFound</a>             =&gt; 'No services found', 
+<a name="l00036"></a>00036         <a name="a31"></a><a class="code" href="rpcmessages_8inc_72bd261f6c9d73dbaf949f3ee1cbcf77.html#72bd261f6c9d73dbaf949f3ee1cbcf77">ERR_NeedHostName</a>                =&gt; 'Hostname missing =&gt; call method with <span class="stringliteral">"[username [:password] @ ] hostname[:port]/name"</span>',
+<a name="l00037"></a>00037         <a name="a32"></a><a class="code" href="rpcmessages_8inc_24ad925513a8c34142ca1b4f2bad887c.html#24ad925513a8c34142ca1b4f2bad887c">ERR_NeedPort</a>                    =&gt; 'Hostname or port missing =&gt; call method with <span class="stringliteral">"[username [:password] @ ] hostname:port/name"</span>',
+<a name="l00038"></a>00038         <a name="a33"></a><a class="code" href="rpcmessages_8inc_f29335d259ffd19dd0963d5f5bd809cb.html#f29335d259ffd19dd0963d5f5bd809cb">ERR_NeedCreditials</a>              =&gt; 'Login data missing =&gt; call method with <span class="stringliteral">"username[:password]@hostname:port/name"</span>',
+<a name="l00039"></a>00039         <a name="a34"></a><a class="code" href="rpcmessages_8inc_df8dfe1fea68fdecdc548ded0987e16f.html#df8dfe1fea68fdecdc548ded0987e16f">ERR_InjectInitFailed</a>            =&gt; 'Injection init function %s failed',
+<a name="l00040"></a>00040 <span class="comment">// RPC GetService ...  Events register,refresh,unregister</span>
+<a name="l00041"></a>00041         <a name="a35"></a><a class="code" href="rpcmessages_8inc_ac330885e745f9d0f672d1d81ec0e477.html#ac330885e745f9d0f672d1d81ec0e477">ERR_ServiceNotFound</a>             =&gt; 'Service %s not found',
+<a name="l00042"></a>00042         <a name="a36"></a><a class="code" href="rpcmessages_8inc_8be42ff35bf61fd293e98d9af5efde6e.html#8be42ff35bf61fd293e98d9af5efde6e">ERR_NoEventServiceFound</a>         =&gt; 'No events found',
+<a name="l00043"></a>00043         <a name="a37"></a><a class="code" href="rpcmessages_8inc_4cde67a9b82486b78c719a04f1d9c351.html#4cde67a9b82486b78c719a04f1d9c351">ERR_ServiceHasNoEvents</a>          =&gt; 'Service %s has no events',
+<a name="l00044"></a>00044         <a name="a38"></a><a class="code" href="rpcmessages_8inc_3a5d1923393f8274131bb01e68052dd1.html#3a5d1923393f8274131bb01e68052dd1">ERR_ServiceHasNoEventUrl</a>        =&gt; 'Service %s has no event control url',
+<a name="l00045"></a>00045         <a name="a39"></a><a class="code" href="rpcmessages_8inc_0f6e081f5a15096d43c54dca4001f099.html#0f6e081f5a15096d43c54dca4001f099">ERR_NoResposeSID</a>                =&gt; 'Empty event SID received',
+<a name="l00046"></a>00046         <a name="a40"></a><a class="code" href="rpcmessages_8inc_97a8304ef4b4eb68f0cee95441dc9b61.html#97a8304ef4b4eb68f0cee95441dc9b61">ERR_InvalidTimeouResponse</a>       =&gt; 'Invalid or no timeout received',
+<a name="l00047"></a>00047         <a name="a41"></a><a class="code" href="rpcmessages_8inc_347c1c219ef222410ce59c5bbf28a226.html#347c1c219ef222410ce59c5bbf28a226">ERR_NotMySIDReceived</a>            =&gt; 'Received sid %s is not my sid %s',
+<a name="l00048"></a>00048         <a name="a42"></a><a class="code" href="rpcmessages_8inc_5d4eff861a03c8402e327716505fd145.html#5d4eff861a03c8402e327716505fd145">ERR_InvalidCallbackUrl</a>          =&gt; 'Invalid callback url <span class="stringliteral">"%s"</span>',
+<a name="l00049"></a>00049 <span class="comment">// Detection in rpc.inject.inc</span>
+<a name="l00050"></a>00050         <a name="a43"></a><a class="code" href="rpcmessages_8inc_1e593cfcbeec5ad87cbb5f6d4fb3a2df.html#1e593cfcbeec5ad87cbb5f6d4fb3a2df">ERR_FoundManuModelNotMatch</a>      =&gt; 'Found manufacturer %s but model %s not in detection matchlist',
+<a name="l00051"></a>00051 <span class="comment">// Load/Save Config</span>
+<a name="l00052"></a>00052         <a name="a44"></a><a class="code" href="rpcmessages_8inc_4964a76ad9cf667937d11e91915f634e.html#4964a76ad9cf667937d11e91915f634e">ERR_FileNotFound</a>                =&gt; 'File %s not found',
+<a name="l00053"></a>00053         <a name="a45"></a><a class="code" href="rpcmessages_8inc_bff2cae6ad26ba08033b1f8387a0d512.html#bff2cae6ad26ba08033b1f8387a0d512">ERR_NoRpcConfigFile</a>             =&gt; 'File %s is no valid Rpc config',
+<a name="l00054"></a>00054         <a name="a46"></a><a class="code" href="rpcmessages_8inc_1061a36aa2d9bc3036b77547c0281787.html#1061a36aa2d9bc3036b77547c0281787">ERR_ConfigFileVersionMismatch</a>   =&gt; 'Invalid config version: %s !! Need version: %s',
+<a name="l00055"></a>00055         <a name="a47"></a><a class="code" href="rpcmessages_8inc_b267e2502c76df9e6df961c19fde1d04.html#b267e2502c76df9e6df961c19fde1d04">ERR_NoDataToSave</a>                =&gt; 'Device data empty. Save aborted!',  
+<a name="l00056"></a>00056 ];
+<a name="l00057"></a>00057 ?&gt;
+</pre></div> To use this new file, there are two ways<ol type=1>
+<li>Define the Global Language constant in your Projet, before include <a class="el" href="class_rpc_api.html">RpcApi</a> <div class="fragment"><pre class="fragment"><a name="l00001"></a>00001  define('RpcLanguage<span class="charliteral">','</span>en');
+<a name="l00002"></a>00002  require_once('rpcapi.php');
+</pre></div></li><li>Set the Language when creating a custom <a class="el" href="class_rpc_message.html">RpcMessage</a> object</li></ol>
+<p>
+<dl compact><dt><b>Siehe auch:</b></dt><dd><a class="el" href="class_rpc_message.html">RpcMessage</a> , <a class="el" href="_create___rpc_message-example.html">Create_RpcMessage</a> and <a class="el" href="_create___rpc_logger-example.html">Create_RpcLogger</a></dd></dl>
+<div class="fragment"><pre class="fragment"></pre></div> <hr size="1"><address style="align: right;"><small>Erzeugt am Tue Mar 20 15:10:36 2018 für RPCApi von&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img src="doxygen.png" alt="doxygen" align="middle" border="0"></a> 1.4.5 </small></address>
+</body>
+</html>

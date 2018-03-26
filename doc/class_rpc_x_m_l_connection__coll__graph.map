@@ -1,0 +1,5 @@
+<map id="RpcXMLConnection" name="RpcXMLConnection">
+<area shape="rect" id="node2" href="$class_rpc_curl_connection.html" title="Abstract curl connection class. " alt="" coords="6,155,139,181"/>
+<area shape="rect" id="node3" href="$class_rpc_connection.html" title="Base connection class. " alt="" coords="17,80,128,107"/>
+<area shape="rect" id="node4" href="$interfacei_rpc_logger.html" title="Inferface to Attach and Detach RpcLogger. " alt="" coords="29,5,116,32"/>
+</map>

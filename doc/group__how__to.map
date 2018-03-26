@@ -1,0 +1,8 @@
+<map id="How to examples" name="How to examples">
+<area shape="rect" id="node1" href="$group__import__api.html" title="demonstrates how to use own services and functions " alt="" coords="197,5,301,32"/>
+<area shape="rect" id="node2" href="$group__how__to__create__logger.html" title="Uses of Logger. " alt="" coords="191,56,306,83"/>
+<area shape="rect" id="node3" href="$group__how__to__call.html" title="Call a function. " alt="" coords="197,107,301,133"/>
+<area shape="rect" id="node4" href="$group__how__to__args.html" title="Use call arguments. " alt="" coords="180,157,317,184"/>
+<area shape="rect" id="node5" href="$group__create__language__file.html" title="Demonstrates creating own language file. " alt="" coords="176,208,321,235"/>
+<area shape="rect" id="node6" href="$group__how__to__load.html" title="Demonstrate load,import and save. " alt="" coords="176,259,321,285"/>
+</map>
